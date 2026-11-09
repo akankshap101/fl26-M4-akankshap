@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="M4Tests" timestamp="2026&#x002D;11&#x002D;08T10:47:36" hostname="BOOK&#x002D;22L4M0QPID" tests="9" failures="1" errors="0" skipped="0" time="11.523">
+  <properties>
+    <property name="QTestVersion" value="6.11.2"/>
+    <property name="QtVersion" value="6.11.2"/>
+    <property name="QtBuild" value="Qt 6.11.2 (x86_64&#x002D;little_endian&#x002D;llp64 shared (dynamic) release build; by GCC 13.1.0)"/>
+  </properties>
+  <testcase name="initTestCase" classname="M4Tests" time="0.000"/>
+  <testcase name="successful_background_build" classname="M4Tests" time="0.253">
+    <system-err>
+      <![CDATA[QFontDatabase: Cannot find font directory C:/Qt/6.11.2/mingw_64/lib/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.]]>
+    </system-err>
+  </testcase>
+  <testcase name="stale_build_cannot_become_current" classname="M4Tests" time="0.067"/>
+  <testcase name="build_failure_is_reported" classname="M4Tests" time="10.618">
+    <failure type="fail" message="&apos;has_label(window, &quot;Corpus: Failed&quot;)&apos; returned FALSE. ()"/>
+  </testcase>
+  <testcase name="reset_during_build_rejects_old_completion" classname="M4Tests" time="0.065"/>
+  <testcase name="unreadable_add_changes_nothing" classname="M4Tests" time="0.071"/>
+  <testcase name="gui_events_continue_during_build" classname="M4Tests" time="0.113"/>
+  <testcase name="repeated_builds_and_close_during_build" classname="M4Tests" time="0.330">
+    <system-err>
+      <![CDATA[This plugin does not support propagateSizeHints()]]>
+    </system-err>
+  </testcase>
+  <testcase name="cleanupTestCase" classname="M4Tests" time="0.000"/>
+</testsuite>

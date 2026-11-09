@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-08",
+  "source_root": "C:\\M4_akankshap2\\M4_Starter",
+  "image": "ece3574",
+  "os": "Ubuntu 24.04.5 LTS",
+  "compiler": "GCC 13.3.0",
+  "qt": "6.4.2",
+  "normal": {
+    "ctest_exit": 0,
+    "ctest_seconds": 1.55,
+    "qtest_entries": 13,
+    "failures": 0,
+    "actual_test_cases": 11,
+    "cr1_test_cases": 4
+  },
+  "environment_limit": "Specification states Ubuntu 22.04; exact release not yet tested.",
+  "source_sha256": {
+    "src/build_controller.cpp": "547c8e1e40ae8c2346d96dc320679d697533fc2b80d2f74ae26f144791698a0c",
+    "src/chunker.cpp": "0b906f82e032cb30952a8d911fd3262a1f689ea78140b766beee1451b86001ac",
+    "src/context_builder.cpp": "aee0cebba175705836fcb6e0ec9fa08739bb2a288f9aadbfd14883b89fd469e4",
+    "src/context_widget.cpp": "933d12adc932f1c536695e6aeff873d6159dd09c1d9e0d9d5f903b84bfa624c8",
+    "src/corpus_index.cpp": "547236fa9bfc910ad19e9715467c3a2dc649d3c5c7c0287b52170d44d162b0a7",
+    "src/document.cpp": "3794de6c02ea719eea3a92528bceb77df8db939c000d9d68b9c223f89070f000",
+    "src/ipc_server.cpp": "289f6fb229abc49e98facfcd5ca61880c4244ea94210b35ae59145698572d232",
+    "src/main.cpp": "eb9ebfa574b4ab4274cb674b93125ff2b03ecd092a1e9b5d1a393ff8a0da6500",
+    "src/main_window.cpp": "6e9fe35f468847568a976ec5d663c9ab54e6effde6b5eeba71af20ae93862446",
+    "src/processing_core.cpp": "9adb2645cc6f46c73e6b512dcb15372ef993885dba0d3e7b287ba6dec304e9e1",
+    "src/retrieval_engine.cpp": "a96003e7482728955f96867ffc93f9182f92aff6cdf00ff2dba4c1849487ddda",
+    "src/search_result_model.cpp": "661fbeaf6f360d50c53708f6d6b22ef98949133101d7ea608dfdf92b6980e738",
+    "src/search_widget.cpp": "8e7c8aa51d02d11baeaede0ca5389a0122fa9b5124e612bf5cdbf7c5ea4c8dbf",
+    "src/term_inspector_widget.cpp": "fe1eb6f05dcb9e1219ce7f23c54e4034631b35c6f36532a7fd8fc992f377f725",
+    "src/text_processor.cpp": "3543404f8d02a2bc2e4f3a9eae7f8912de5c6a3c1cd8c395051b0e1c74cff9ed",
+    "src/workspace.cpp": "cf7b131bb43c769f81292dc2ef9faac1e978107f32462160e12143b670b14093",
+    "src/workspace_widget.cpp": "6f3edb37589ae34bb1a0f5551823aa4e4669b624d6c4a5e6b9f76665fbbe43a5",
+    "include/aiws/chunker.hpp": "b0ffcfca9fbe8c961f1601cc8debb948d4872dea1b25e54205ebaf141c0882fa",
+    "include/aiws/chunking_strategy.hpp": "2e3bae5717485d2c810e8498e30c5bad14848501300ed7830f4baa1abf35ddb0",
+    "include/aiws/context_builder.hpp": "5b7821d5d0cc4e37cc99fbaabe78551039a12527b56c5adece25b6af4d7a34ec",
+    "include/aiws/context_strategy.hpp": "83035581105bf4d7b130b1647a23845f9ce7a246bff738200542b817ca0018e1",
+    "include/aiws/corpus_index.hpp": "4f50f0fc2fa837a1c9c9700ee7ce4b9570f7213b3860c127aef6dcd3d56b8bf8",
+    "include/aiws/document.hpp": "c4e1031ed0157122095f5bf906e45eeddb156e620ee61cc75afd2662ad50eb39",
+    "include/aiws/gui/build_controller.hpp": "5c2a5dc7ca44a262acb9be2fac79ec53fd62a0b479c85441dc455e6af55a6791",
+    "include/aiws/gui/context_widget.hpp": "017dafacb49fdfc6c972a34303d7420ac64171450634ec5319928cc950729f7b",
+    "include/aiws/gui/ipc_server.hpp": "36cfaf0e6779b8e4434563f1cf7636b7e60c77198de1da20d5d9fcca7509f500",
+    "include/aiws/gui/main_window.hpp": "b4d49b863dd22200d90b56c680aaa2cd70eaa3778ff3ea49a2cce4b0bf236cbd",
+    "include/aiws/gui/resettable.hpp": "a2fd1f2fc252ae2f94c5ca114d5d70f31a065d12a86c63f29e943e2dd3dc7595",
+    "include/aiws/gui/search_result_model.hpp": "ddaaf46da18a5b6f913f7522a1e97bd3283e6148853d011e867ee81d91b0e89f",
+    "include/aiws/gui/search_widget.hpp": "cbd270ee57ee8e1eb94f5f9ed934947c59cb0755ea90d312cd71c5c5016c77f4",
+    "include/aiws/gui/term_inspector_widget.hpp": "b74e134f01456f575090bd354e46102ca01ad6907910b2353528586aff21b832",
+    "include/aiws/gui/workspace_widget.hpp": "a5a084f6017fe5634c73ce0bf1e68c9f625767fd249779d1e9c3b62773c50023",
+    "include/aiws/processing_core.hpp": "11af71ca6180a3f7355e6a395919317400d16fda4b0ee32b04d1d69400a9d2e4",
+    "include/aiws/processing_types.hpp": "d4d291edbe9dd57532c889e73ac346d6c1a842705d43e1e508453c7ba03f67e6",
+    "include/aiws/retrieval_engine.hpp": "0c68187673670080b5f50969dacf75dddb7064d4dcfd80faf38afe104a0c9a78",
+    "include/aiws/retrieval_strategy.hpp": "4140fcbbf2385f3150bc27b61042a0b8890cefd8c7d0cb8d0abaa91bca9eccfb",
+    "include/aiws/text_processor.hpp": "a816bbd22197cdf43ca8a8ef1dff6f89ea3c4859dc56def889279ba166d0cc2d",
+    "include/aiws/workspace.hpp": "f0d5dc90cd7f30c0493e61c7085866fb088979dfabcd023ebd04a31aaffebfa4",
+    "tools/aiws_send.cpp": "9a540c11a617bfb955544ee9b2a8e3605c93408d8ecd94b26f015ad0148f81bd",
+    "tests/student_tests.cpp": "a8636a3aa030a97403d054b02cb528e5c729de8fde05a4a7b61ff260b8caa867"
+  },
+  "fault_stale": {
+    "ctest_exit": 8,
+    "ctest_seconds": 3.41,
+    "qtest_entries": 13,
+    "failures": 3,
+    "expected_failure": true,
+    "failed_cases": [
+      "stale_build_cannot_become_current",
+      "reset_during_build_rejects_old_completion",
+      "fragmented_remote_add_invalidates_running_build"
+    ]
+  },
+  "fault_failure": {
+    "ctest_exit": 8,
+    "ctest_seconds": 10.3,
+    "qtest_entries": 13,
+    "failures": 1,
+    "expected_failure": true,
+    "failed_cases": [
+      "build_failure_is_reported"
+    ]
+  }
+}
